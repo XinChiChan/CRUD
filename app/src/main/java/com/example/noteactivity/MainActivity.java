@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             aluno.setCpf(cpf.getText().toString());
             aluno.setTelephone(telephone.getText().toString());
             long id = dao.insert(aluno);
-            Toast.makeText(this, "成功添加" + id, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "成功添加" , Toast.LENGTH_SHORT).show();
             finish();
         }else{
             aluno.setNome(nome.getText().toString());

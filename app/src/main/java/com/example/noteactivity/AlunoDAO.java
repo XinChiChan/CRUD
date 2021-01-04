@@ -30,8 +30,8 @@ public class AlunoDAO {
 
     public List<Aluno> obterTodos(){
         List<Aluno> alunos =  new ArrayList<>();
-        Cursor cursor = dbData.query("aluno",new String[]{"id","nome","cpf","telephone"},null,null,null,
-                null,null);
+        Cursor cursor = dbData.query("aluno",new String[]{"id","nome","cpf","telephone"},
+                null,null,null, null,null);
 
         while ((cursor.moveToNext())){
             Aluno a = new Aluno();

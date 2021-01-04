@@ -26,8 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:text="時間"
         android:textStyle="bold"
-        android:text="telephone:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_nome" />
 
@@ -36,7 +36,7 @@
         android:layout_width="82dp"
         android:layout_height="19dp"
         android:layout_marginTop="8dp"
-        android:text="telephone"
+        android:text="TextView"
         app:layout_constraintStart_toEndOf="@+id/telephone"
         app:layout_constraintTop_toBottomOf="@+id/txt_nome" />
 
@@ -47,7 +47,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="CPF:"
+        android:text="備註"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/txt_CPF"
         app:layout_constraintStart_toEndOf="@+id/txt_telephone"
